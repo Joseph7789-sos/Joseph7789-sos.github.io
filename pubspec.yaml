@@ -1,0 +1,42 @@
+name: innovate_mobile_website
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-140.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  social_media_buttons: ^1.0.0
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  url_launcher: ^6.2.4
+  carousel_slider: ^4.2.1
+  icons_launcher: ^2.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+icons_launcher:
+  image_path: 'assets/images/Logo.jpg'
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+    web:
+      enable: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
